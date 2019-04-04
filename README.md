@@ -83,7 +83,7 @@ If you have problems with the new update, please contact me. I did not completel
 	- `/id <player>`
 
 ## Links:
-- Sites: [>> GitLab <<](https://gitlab.com/hampoelz/RandomID)
-- Support: [>> GitLab <<](https://gitlab.com/hampoelz/RandomID/issues)
-- Releases: [>> GitLab <<](https://gitlab.com/hampoelz/RandomID/tags)
-- License: [>> MIT License <<](https://gitlab.com/hampoelz/RandomID/blob/master/LICENSE)
+- Sites: [>> GitHub <<](https://github.com/hampoelz/RandomID)
+- Support: [>> GitHub <<](https://github.com/hampoelz/RandomID/issues)
+- Releases: [>> GitHub <<](https://github.com/hampoelz/RandomID/releases)
+- License: [>> MIT License <<](https://github.com/hampoelz/RandomID/blob/master/LICENSE)
