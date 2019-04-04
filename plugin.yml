@@ -1,0 +1,43 @@
+name: RandomID
+version: 1.4
+author: Rene Hampoelz
+website: hampoelz.net
+
+main: net.hampoelz.RandomID.Main.Main
+
+softdepend: [PlaceholderAPI]
+
+commands:
+  id:
+    usage: /id [player]
+    description: Get your Personal ID [from a Player]
+    aliases: [personalid, myid]
+  uuid:
+    usage: /uuid [player]
+    description: Get the UUID [from a Player]
+  randomid:
+    usage: /RandomID [length / reload]
+    description: Get a random ID [in a certain length] / reload the config file
+  randomuuid:
+    usage: /RandomUUID
+    description: Get a random UUID
+    
+permissions:
+  RandomID.*:
+    children:
+      RandomID.ID.*: true
+      RandomID.UUID.*: true
+      RandomID.PersonalID.*: true
+      RandomID.reload: true
+  RandomID.ID.*:
+    children:
+      RandomID.ID.random: true
+  RandomID.UUID.*:
+    children:
+      RandomID.UUID.self: true
+      RandomID.UUID.other: true
+      RandomID.UUID.random: true
+  RandomID.PersonalID.*:
+    children:
+      RandomID.PersonalID.self: true
+      RandomID.PersonalID.other: true
